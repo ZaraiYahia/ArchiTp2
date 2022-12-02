@@ -4,10 +4,10 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	   
-		String BDD = "nomBD";
+		String BDD = "etudiant";
 		String url = "jdbc:mysql://localhost:3306/" + BDD;
 		String user = "root";
-		String passwd = "";
+		String passwd = "password";
 	    private Connection conn;
 
 	   
